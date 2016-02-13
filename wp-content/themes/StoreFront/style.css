@@ -1,0 +1,48 @@
+/*
+Theme Name: StoreFront
+Theme URI: http://gavick.com
+Description: Simple, clear, and customizable; the Storefront webshop theme for WordPress has everything to help you achieve success in ecommerce, even if you are a beginner. Creating a frontpage can be a tough task, but with Storefront’s page-based frontpage, you can create slideshows, tabs, parallax backgrounds and more all from within the ‘Pages’ section of your WordPress backend. No coding necessary; everything is handled through subpages for stress-free configuration. Want to make a beautiful product showcase? Our powerful News Show Pro widget has been embedded into the theme as a shortcode, so you can add post and product previews into pages and posts as well as in the traditional widget areas for a fully-functional website. A good online store needs an strong ecommerce solution, so we’ve added WooCommerce support to StoreFront with all of the great features it brings for a smooth, efficient transaction from start to finish. Specially-prepared pages for your products and categories adds an extra level of design-flair to the site to increase customer satisfaction. Make your internet store accessible and understandable with the remarkable features provided in Storefront, the greatest ecommerce theme available today!
+License: GNU GPL v.2.0
+License URI: LICENSE.txt
+Version: 1.6 (based on GavernWP 1.15)
+Author: GavickPro
+Author URI: http://gavick.com
+Tags: gray, two-columns, fluid-layout, responsive-layout
+*/
+
+/**
+ *
+ * Basic code convention:
+ *
+ * sel {
+ * // rules in the alphabetic order
+ * }
+ *
+ * Content of the CSS files
+ * 
+ * 0. Normalize CSS styles (normalize.css)
+ * 1. Global elements (template.css)
+ * 2. Template containers (template.css)
+ * 3. Template structure (template.css) 
+ * 4. Widget styles (template.css)
+ * 5. Wordpress elements styling (wp.css)
+ * 6. Shortcodes (shortcodes.*.css)
+ * 7. Template additional features styles (stuff.css)
+ * 8. Additional WP extensions styles (wp.extensions.css)
+ * 9. (optional) Additional 3rd party extensions styles (extensions.css)
+ * 10. Small desktop code (desktop.small.css)
+ * 11. Tablet code (tablet.css)
+ * 12. Small Tablet code (tablet.small.css)
+ * 13. Mobile code (mobile.css)
+ * 14. IE code fixes (ie*.css)
+ * 15. Template colours and styles (style*.css)
+ * 16. (optional) Override for all CSS files (override.css)
+ **/
+
+ .home .box{
+ 	padding-top: 0;
+ }
+
+ .page-template-template-contact #gk-sidebar{
+ 	display:none;
+ }

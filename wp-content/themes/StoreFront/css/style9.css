@@ -1,0 +1,268 @@
+/**
+ *
+ * -------------------------------------------
+ * Style9
+ * -------------------------------------------
+ *
+ **/
+
+/*
+ *
+ * 15. Style IX
+ *
+ *
+------------------------------------ */
+
+/* 15.1. Basic colors
+==================================== */
+
+/* template.css */
+a,
+#gk-mainbody a:active,
+#gk-mainbody a:focus,
+#gk-mainbody a:hover,
+#gk-mainbody footer a,
+#gk-mainbody #comments a,
+#gk-mainbody header h1 a:active,
+#gk-mainbody header h1 a:focus,
+#gk-mainbody header h1 a:hover,
+#gk-mainbody header h2 a:active,
+#gk-mainbody header h2 a:focus,
+#gk-mainbody header h2 a:hover,
+#gk-mainbody .content a,
+#gk-footer a:active,
+#gk-footer a:focus,
+#gk-footer a:hover {
+	color: #bf9169;
+}
+
+.btn:hover,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled],
+.button:active,
+.button:focus,
+.button:hover,
+.nav-btn a:active,
+.nav-btn a:focus,
+.nav-btn a:hover,
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+button:active,
+input[type="button"]:active,
+input[type="submit"]:active,
+button.disabled,
+input[type="button"].disabled,
+input[type="submit"].disabled,
+a.gk-button:hover,
+a.gk-button:active,
+a.gk-button.active,
+a.gk-button.disabled,
+a.gk-button[disabled],
+button:focus,
+a.gk-button:focus,
+input[type="button"]:focus,
+input[type="submit"]:focus,
+.more-link:active,
+.more-link:focus,
+.more-link:hover,
+.gk-button,
+a.gk-button,
+.btn.invert,
+.shipping-calculator-button:hover {
+ 	background-color: #bf9169;
+ 	border-color: #bf9169;
+ }
+ 
+/* extensions.css */
+.gk-nsp-arts-nav li:hover,
+.gk-nsp-arts-nav li.active,
+.gk-nsp-links-nav li:hover,
+.gk-nsp-links-nav li.active {
+	background-color: #bf9169;
+}
+
+.gk-nsp-next:hover:after,
+.gk-nsp-prev:hover:after { 
+	color: #bf9169;
+}
+
+.gk-nsp-header a:active,
+.gk-nsp-header a:focus,
+.gk-nsp-header a:hover {
+	color: #bf9169!important;
+}
+
+.gk-nsp.products .gk-nsp-art:hover .single_add_to_cart_button,
+.gk-nsp.products .gk-nsp-art:hover .readon,
+.widget_wysija_cont .wysija-submit:active,
+.widget_wysija_cont .wysija-submit:focus,
+.widget_wysija_cont .wysija-submit:hover {
+	background-color: #bf9169!important;
+}
+
+/* wp.css */
+#main-menu .sub-menu li:hover > a,
+#main-menu .sub-menu li > a:active,
+#main-menu .sub-menu li > a:focus,
+#main-menu .sub-menu li > a:hover,
+#main-menu .menu-cols-2 > .sub-menu > ul > li > a:hover,
+#main-menu .menu-cols-3 > .sub-menu > ul > li > a:hover,
+#main-menu .menu-cols-4 > .sub-menu > ul > li > a:hover,
+article header ul li a {
+	color: #bf9169!important;
+}
+
+#gk-menu-overlay-close,
+#gk-menu-overlay-content li a:active,
+#gk-menu-overlay-content li a:focus,
+#gk-menu-overlay-content li a:hover,
+#gk-top-menu a:active,
+#gk-top-menu a:focus,
+#gk-top-menu a:hover,
+#comments em.awaiting-moderation  {
+	color: #bf9169;
+}
+
+article .featured-image sup,
+article.sticky .featured-image sup {
+	background-color: #bf9169;
+}
+
+/* wp.extensions.css */
+.box #wp-calendar td#today {
+	background-color: #bf9169;
+}
+
+.box.dark a:active,
+.box.dark a:focus,
+.box.dark a:hover,
+.box.menu li:hover > a,
+.box.widget_categories li:hover > a {
+	color: #bf9169!important;
+}
+  
+/* stuff.css */
+.gk-breadcrumbs a:hover,
+.gk-format-aside:before,
+.gk-format-audio:before,
+.gk-format-chat:before,
+.gk-format-gallery:before,
+.gk-format-image:before,
+.gk-format-link:before,
+.gk-format-quote:before,
+.gk-format-status:before,
+.gk-format-video:before,
+#gk-mainbody .author-desc p a,
+.gk-social-icons li a:hover:before,
+.gk-popup h3 a,
+#gk-popup-cart .cart_list li a,
+#gk-popup-cart .quantity .amount  { 
+	color: #bf9169; 
+}
+.gk-features li.highlighted strong {
+	background-color: #bf9169;
+	border-color: #bf9169;
+}
+
+/* shortcodes.elements.css */
+.gk-note:before,
+.gk-members > strong:first-child {
+	background-color: #bf9169;
+}
+.gk-toggle.opened > h3:after,
+.gk-toggle.closed > h3:after {
+	color: #bf9169;
+}
+
+/* shortcodes.typography.css */
+.gk-warning,
+.gk-error,
+.gk-contact-error {
+	background-color: #bf9169;
+}
+
+pre,
+pre.gk-code {
+	border-left: 5px solid #bf9169;
+}
+
+.gk-numblock[data-style="style3"] span,
+blockquote:before,
+blockquote p:after,
+article ul[data-style="style2"] li:before,
+#tab-description ul[data-style="style2"] li:before,
+article ul[data-style="style3"] li:before,
+#tab-description ul[data-style="style3"] li:before,
+article ul[data-style="style4"] li:before,
+#tab-description ul[data-style="style4"] li:before  {
+	color: #bf9169;
+}
+
+.gk-numblock[data-style="style3"] span {
+	border-color: #bf9169;
+}
+
+/* gallery.css */
+.gallery-btn-next:before,
+.gallery-btn-prev:before {
+	color: #bf9169;
+}
+
+/* woocommerce.css */
+.gk-woocommerce-breadcrumbs a:active,
+.gk-woocommerce-breadcrumbs a:focus,
+.gk-woocommerce-breadcrumbs a:hover,
+ul.products li.product h3 a:active,
+ul.products li.product h3 a:focus,
+ul.products li.product h3 a:hover,
+.woocommerce-message a.button,
+.woocommerce-error a.button,
+.woocommerce-info a.button {
+	color: #bf9169!important;
+}
+
+p.stock,
+span.price,
+div[itemprop="offers"] > .price,
+table.group_table td.price span.amount,
+.woocommerce.box ins,
+.woocommerce.box span.amount,
+ul.products li.product .price,
+.product-subtotal span.amount,
+.order_details span.amount,
+.total span.amount,
+.woocommerce .widget_layered_nav_filters ul li a:hover:before,
+.woocommerce-page .widget_layered_nav_filters ul li a:hover:before,
+.woocommerce .widget_layered_nav ul li.chosen a:hover:before,
+.woocommerce-page .widget_layered_nav ul li.chosen a:hover:before  {
+ 	color: #bf9169;
+}
+
+.single-product .single_add_to_cart_button {
+	background: #bf9169 !important;
+}
+
+#payment div.payment_box,
+ul.products li.product .onsale,
+span.onsale,
+.widget_price_filter .ui-slider .ui-slider-range {
+	background-color: #bf9169;
+}
+
+#payment div.payment_box::after,
+#payment ul.payment_methods {
+	border-bottom-color: #bf9169;
+}
+
+.cart-collaterals .cart_totals tr.total td,
+.cart-collaterals .cart_totals tr.total th,
+p.total {
+	border-top-color: #bf9169;
+}
+
+.widget_price_filter .ui-slider .ui-slider-handle {
+	border-color: #bf9169;
+}

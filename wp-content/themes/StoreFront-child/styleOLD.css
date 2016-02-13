@@ -1,0 +1,106 @@
+/*
+ Theme Name:   Store Front Child
+ Description:  StoreFront
+ Author:       Jose Antonio Cuenca
+ Template:     StoreFront
+*/
+
+/*-- HORIZONTAL MENUS --*/
+#menu-main-menu,
+footer ul
+   { text-align: center; }
+
+#menu-main-menu li,
+footer li { display: inline-block; }
+
+/* --- SITE MAIN MENU --- */
+#main-menu li{
+   font-size: 13px;
+   font-weight: 400;
+}
+
+/*----------------------- HOME PAGE -----------------------*/
+
+.home #gk-breadcrumb-area{ display:none; }
+
+.home #gk-head{ margin-bottom:0; }
+
+/*-- MENU CATEGORIES FOR HOME PAGE --*/
+#menu-main-menu a{
+    color:black;
+    text-transform: uppercase;
+    background-color:white;
+    text-decoration:none;
+    //transition: all 0.3s ease-out 0s;
+   font-size: 12px;
+   font-weight: bold;
+   height: 36px;
+   line-height: 37px;
+}
+
+#menu-main-menu .active{
+    color:white;
+    background-color:black !important;
+}
+
+#menu-main-menu .active a{
+    color:white;
+    background-color:black;
+}
+
+#menu-main-menu li{
+    padding:0 20px;
+    margin:0 12px;
+}
+
+/*
+.gkTabsWrap ul li.active, .gkTabsWrap ul li.active:hover {
+    background: #1B1D1F none repeat scroll 0% 0%;
+    color: #FFF;
+    padding: 0px 20px !important;
+}
+.gkTabsWrap ul li.active {
+    margin: 0px 12px;
+}
+.gkTabsWrap ul li {
+    border: medium none;
+    color: #1B1D1F;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 36px;
+    line-height: 37px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px 6px !important;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease-out 0s;
+}
+*/
+
+/*-- PRODUCTS LIST HOME PAGE --*/
+.products:not(.active) { display:none; }
+
+/*----------------------- /HOME PAGE -----------------------*/
+
+/*-- CONTACT FORM --*/
+#formTitle{
+    border-bottom: 1px solid #E5E5E5;
+    clear: both;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0 0 32px;
+    padding: 52px 0 16px;
+}
+
+#generalInfoParagWrapper p{
+    /*border-top: 1px solid #E5E5E5;*/
+    font-size: 14px;
+    margin: 72px 0 0;
+    padding: 24px 0 0;
+    color: #666;
+    margin-top:0;
+}

@@ -1,0 +1,9 @@
+<wpml-config>
+    <admin-texts>
+        <key name="storefront_seo_description" />
+        <key name="storefront_seo_blogname" />
+        <key name="storefront_seo_homepage_desc_value" />
+        <key name="storefront_seo_homepage_keywords_value" />
+        <key name="storefront_template_footer_content" />
+    </admin-texts>   
+</wpml-config>

@@ -1,0 +1,54 @@
+/**
+ *
+ * -------------------------------------------
+ * Small Desktop CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 10. Small Desktop code
+ *
+ *
+------------------------------------ */
+ 
+/* 10.1. Base elements
+==================================== */ 
+
+.gk-page {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 10px!important;
+	padding-right: 10px!important;
+}
+
+.gk-bottom,
+#gk-bottom {
+	padding: 0;
+}
+
+.gk-bottom > div {
+	margin: 0!important;
+}
+
+#gk-bottom > div {
+	padding: 45px 10px 35px 10px;
+}
+
+#gk-menu-overlay-wrap {
+	margin: 0 0 0 -360px!important;
+	max-width: 720px!important;
+}
+
+.gk-banners img {
+	max-width: 50%!important;
+}
+#gk-popup-cart {
+	right: 10px;
+}
+
+ul.products li.product {
+	width: 30.8%!important;
+}

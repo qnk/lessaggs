@@ -1,0 +1,18 @@
+{
+	"template": {
+		"name": "StoreFront",
+		"update_name": "gk_storefront_wp",
+		"date": "21/08/2015",
+		"version": "1.6",
+		"description": "A Premium eCommerce, responsive GavickPro Wordpress theme based on the GavernWP framework"
+	},
+	"developer_config": {
+		"visibility": {
+			"template_options": true,
+			"importexport": true,
+			"updates": true,
+			"documentation": true,
+			"gavickpro_website": true
+		}
+	}
+}
